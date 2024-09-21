@@ -19,6 +19,7 @@ spec:
         notifications.argoproj.io/subscribe.on-sync-running.slack: "#k8s-testing"
         notifications.argoproj.io/subscribe.on-health-degraded.slack: "#k8s-testing"
         notifications.argoproj.io/subscribe.on-deployed.slack: "#k8s-testing"
+        notifications.argoproj.io/subscribe.slack: "#k8s-testing"
     spec:
       containers:
       - image: gcr.io/heptio-images/ks-guestbook-demo:0.2
